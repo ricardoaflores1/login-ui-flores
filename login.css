@@ -1,6 +1,10 @@
 body {
     background-image: url("Assets/laser.jpg");
-    background-repeat: no-repeat;
+    background-size: cover;
+       
+        
+
+
     
 }
 
@@ -9,6 +13,12 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    
+
+}
+
+.forgot {
+    font-size: 14px;
 }
 
 .card {
@@ -21,14 +31,16 @@ body {
     width: 200px;
     text-align: center;
     opacity: 80%;
+    
    
 
 }
 
+
+
 input::placeholder {
-    font-size: 17px;
-    font-weight: bolder;
-    color: rgb(65, 16, 191);
+    font-size: 13px;
+    
 }
 
 h1 {
